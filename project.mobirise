@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.9.2",
-    "uniqCompNum": 29,
+    "uniqCompNum": 30,
     "versionPublish": "3.9.2",
     "favicon": "",
     "noImageResize": "",
@@ -700,31 +700,28 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-a",
+          "_name": "content5",
+          "_anchor": "content5-t",
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": "2",
-            "bgImageRadio": false,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#d5f4f0",
-            "bgColorRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0138-2000x1333-74.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
             "showTitle": true,
-            "showText": false
+            "showCaption": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">Start a Journey</a>",
-          "title": "The Seaside",
-          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+          "title": "The Sea",
+          "caption": "<p>These photos were taken at the seaside with the family dogs.</p>"
         },
         {
           "alias": "purity/components",
