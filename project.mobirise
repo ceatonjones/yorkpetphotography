@@ -1,0 +1,894 @@
+{
+  "settings": {
+    "name": "Photography",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "versionFirst": "3.9.2",
+    "uniqCompNum": 17,
+    "versionPublish": "3.9.2",
+    "favicon": "",
+    "noImageResize": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "publishType": "github"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "H1": {
+              "text-align": "center",
+              "font-size": "60px",
+              "color": "#d8f1d5",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-26.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#413022",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "showArrow": false
+          },
+          "title": "Charlotte Eaton-Jones<br>York Pet Photography",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"portfolio.html\" data-toolbar=\"-mbrBtnMove\">Gallery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"aboutme.html\" data-toolbar=\"-mbrBtnMove\">About Me</a>"
+        }
+      ]
+    },
+    "portfolio.html": {
+      "settings": {},
+      "components": [
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H2": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "right",
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-23.jpg",
+                "overlay": true,
+                "overlayOpacity": "0.3",
+                "overlayColor": "#d9534f",
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "<p>Outdoor</p><p>Dog<br>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Shoots</p>",
+                "showText": false,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"thefields.html\" data-toolbar=\"-mbrBtnMove\">The Feilds</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"thesea.html\" data-toolbar=\"-mbrBtnMove\">The Seaside</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/darwin-2000x1333-37.jpg",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "<span style=\"color: inherit; font-size: 4.3rem; line-height: 1.1;\"><br></span><br><span style=\"color: inherit; font-size: 4.3rem; line-height: 1.1;\"><br></span><br><span style=\"color: inherit; font-size: 4.3rem; line-height: 1.1;\">Dog&nbsp;</span><br><span style=\"color: inherit; font-size: 4.3rem; line-height: 1.1;\">Studio</span><br><span style=\"color: inherit; font-size: 4.3rem; line-height: 1.1;\">Shoots</span><br>",
+                "showText": false,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"portraits.html\" data-toolbar=\"-mbrBtnMove\">Portraits</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dsc-0134-2000x1333-19.jpg",
+                "overlay": false,
+                "overlayColor": "#f4bfbb",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "Personal Projects",
+                "showText": false,
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"scenery.html\" data-toolbar=\"-mbrBtnMove\">Scenery</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-4",
+          "articleLayout": false
+        }
+      ]
+    },
+    "aboutme.html": {
+      "settings": {
+        "title": "Portfolios"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": false,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Charlotte Eaton-Jones Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me</a></li>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "msg-box4-5",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0093-1400x933-27.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "About Me",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Originally from Swansea and now residing in York, I began an interest in Photography in aid of the family's business. I soon found that it was going to be more than just a hobby and so my own business grew.</p><p>If you would like to arrange a photo shoot, please contact me using the infomation below. </p><p>Photographs on this site are for demonstration purposes only and are of the family's pets, or have permission to be used.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "images/footer-logo.png",
+              "width": 265
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Charlotte Eaton-Jones</b><br><b>Photography</b>",
+          "text2": "<strong>Contact:</strong><br>\nEmail: ceatonjones@aol.com<br>\nPhone: 07495 931140<br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "thefields.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-9",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#e9ce92",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Start a Journey</a>",
+          "title": "The Fields",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": false,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Charlotte Eaton-Jones Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0069-2000x1333-23-2000x1333-15.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0069-2000x1333-23.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0075-2000x1333-43-2000x1333-79.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0075-2000x1333-43.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0077-2000x1333-81-2000x1333-99.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0077-2000x1333-81.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0089-2000x1333-1-2000x1333-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0089-2000x1333-1.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-93-2000x1333-95.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-93.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-3-2000x1333-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-3.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0113-2000x1333-6-2000x1333-87.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0113-2000x1333-6.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0124-2000x1333-58-2000x1333-24.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0124-2000x1333-58.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-51-2000x1333-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-51.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0136-2000x1333-76-2000x1333-33.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0136-2000x1333-76.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0137-2000x1333-99-2000x1333-8.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0137-2000x1333-99.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-g",
+          "articleLayout": false
+        }
+      ]
+    },
+    "thesea.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-a",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#d5f4f0",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">Start a Journey</a>",
+          "title": "The Seaside",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-49-2000x1333-10.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-49.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-92-2000x1333-89.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-92.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-23-2000x1428-94.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-23.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-56-2000x1429-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-56.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0034-2000x1333-62-2000x1333-58.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0034-2000x1333-62.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0043-2000x1333-56-2000x1333-20.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0043-2000x1333-56.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-16-2000x1333-37.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-16.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-5-2000x1333-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-5.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61-2000x1428-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0104-2000x1333-67-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0104-2000x1333-67.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-74-2000x1333-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-74.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-53-2000x1333-23.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-53.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-b",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": false,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Charlotte Eaton-Jones Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me</a></li>"
+        }
+      ]
+    },
+    "scenery.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": false,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Charlotte Eaton-Jones Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-f",
+          "title": "Personal Projects",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "The photos I take for my own enjoyment..."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0138-2000x1333-16-2000x1333-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0138-2000x1333-16.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0150-2000x1333-84-2000x1333-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0150-2000x1333-84.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0151-2000x1333-99-2000x1333-43.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0151-2000x1333-99.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0134-2000x1333-21-2000x1333-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0134-2000x1333-21.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0049-2000x1333-74-2000x1333-84.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0049-2000x1333-74.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0093-2000x1333-44-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0093-2000x1333-44.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0894-2000x1500-0-2000x1500-66.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0894-2000x1500-0.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dscn0905-2000x1500-42-2000x1500-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscn0905-2000x1500-42.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-e",
+          "articleLayout": false
+        }
+      ]
+    },
+    "portraits.html": {
+      "settings": {},
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": false,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Charlotte Eaton-Jones Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Portfolios</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-d",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#f8f8f6",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showButtons": false,
+            "showTitle": true,
+            "showText": false
+          },
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger\" href=\"https://mobirise.com\">Start a Journey</a>",
+          "title": "Dog Portraits",
+          "text": "Mobirise comes with huge collection of pre made layouts to help make your development faster."
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/darwin-2000x1333-0-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/darwin-2000x1333-0.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-46-2000x1333-47.jpg",
+                "image": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-46.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-71-2000x1333-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-86-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-86.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-46-2000x1333-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-46.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-28-2000x1333-51.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-28.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0064-2000x1333-86-2000x1333-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0064-2000x1333-86.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/tilllz-2000x1333-55-2000x1333-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tilllz-2000x1333-55.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/img-20161015-12045-2000x1333-82-2000x1333-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-20161015-12045-2000x1333-82.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-64-2000x1333-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-64.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-00472-2000x1333-87-2000x1333-23.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-00472-2000x1333-87.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-42-2000x1333-13.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-42.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-c",
+          "articleLayout": false
+        }
+      ]
+    },
+    "other.html": {
+      "settings": {},
+      "components": []
+    }
+  }
+}
