@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Photography",
-    "currentPage": "thesea.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -169,6 +169,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "font-size": "18px"
+            }
+          },
           "_anchor": "msg-box4-j",
           "_params": {
             "paddingTop": 0,
@@ -216,12 +221,7 @@
           "title": "The York Pet Photography Dogs",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Darwin (right), Skye and Tilly; My family's dogs, or perhaps you could call them guinee pigs.</p><p>Without divulging my clients private pet pictures, this gallery displays a representation of my work using the family pets as models.</p><p>They loved it.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "_styles": {
-            ".lead P": {
-              "font-size": "18px"
-            }
-          }
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
         },
         {
           "alias": "purity/components",
