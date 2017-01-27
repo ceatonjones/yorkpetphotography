@@ -80,10 +80,10 @@
           "_params": {
             "hamburgerColor": "#000000",
             "sticky": true,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
-            "logo": false,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
             "showBrand": true,
             "showButtons": false
           },
@@ -130,10 +130,10 @@
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
             "logo": true,
             "showBrand": true,
             "showButtons": false
@@ -349,22 +349,23 @@
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
             "logo": true,
             "showBrand": true,
             "showButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-29.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -372,8 +373,7 @@
               "name": "home",
               "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0,
-              "active": true
+              "size": 0
             }
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
@@ -526,22 +526,23 @@
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
             "logo": true,
             "showBrand": true,
             "showButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-68.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -550,8 +551,7 @@
               "family": "MobiriseIcons",
               "link": "index.html",
               "size": 0,
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
@@ -814,22 +814,23 @@
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
             "logo": true,
             "showBrand": true,
             "showButtons": false
           },
           "logo": {
             "image": {
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-70.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -838,8 +839,7 @@
               "family": "MobiriseIcons",
               "link": "index.html",
               "size": 0,
-              "newWindow": false,
-              "active": true
+              "newWindow": false
             }
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
@@ -865,10 +865,10 @@
           "_anchor": "menu-6",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
             "logo": true,
             "showBrand": true,
             "showButtons": false
@@ -1024,10 +1024,10 @@
           "_params": {
             "hamburgerColor": "#000000",
             "sticky": true,
-            "transparent": true,
-            "color": "#fbfbfb",
-            "collapsed": false,
-            "logo": false,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
             "showBrand": true,
             "showButtons": false
           },
