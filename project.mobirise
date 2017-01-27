@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Photography",
-    "currentPage": "page7.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -79,11 +79,11 @@
           "_anchor": "menu-l",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
+            "sticky": true,
             "transparent": true,
             "color": "#fbfbfb",
             "collapsed": false,
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "showButtons": false
           },
@@ -1023,11 +1023,11 @@
           "_anchor": "menu-l",
           "_params": {
             "hamburgerColor": "#000000",
-            "sticky": false,
+            "sticky": true,
             "transparent": true,
             "color": "#fbfbfb",
             "collapsed": false,
-            "logo": true,
+            "logo": false,
             "showBrand": true,
             "showButtons": false
           },
