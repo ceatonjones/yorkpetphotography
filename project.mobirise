@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Photography",
-    "currentPage": "page7.html",
+    "currentPage": "thefields.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -19,8 +19,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
-        "meta_descr": "",
+        "title": "Home",
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -109,12 +109,490 @@
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
         }
       ]
     },
-    "portfolio.html": {
-      "settings": {},
+    "aboutme.html": {
+      "settings": {
+        "title": "About/Contact",
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, about me, contact, infomation, details, address, phone number, email"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-29.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_styles": {
+            ".lead P": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "msg-box4-5",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dsc-0093-1400x933-27.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "About Me",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Originally from Swansea and now residing in York, I began an interest in Photography in aid of the family's business. I soon found that it was going to be more than just a hobby and so my own business grew.</p><p>If you would like to arrange a photo shoot, please contact me using the infomation below. </p><p>Photographs on this site are for demonstration purposes only and are of the family's pets, or have permission to be used.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "images/footer-logo.png",
+              "width": 265
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0,
+              "active": true
+            }
+          },
+          "text1": "<b>Charlotte Eaton-Jones</b><br><b>York Pet &nbsp;Photography</b>",
+          "text2": "<strong>Contact:</strong><br>\nEmail: ceatonjones@aol.com<br>\nPhone: 07495 931140<br><br>",
+          "text3": ""
+        }
+      ]
+    },
+    "thefields.html": {
+      "settings": {
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, images, gallery, portfolio, fields, grass, flowers, trees, leaves",
+        "title": "The Fields"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-s",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0310-2000x1333-24.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "The Fields",
+          "caption": "<p>These photos are very popular with dog owners. I'm very happy to create a photoshoot based around one of your everyday walks - alternatively, I know plenty of places in and around York where we can take your dog to create some photo magic!</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-68.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-03372-2000x1333-65-2000x1333-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-03372-2000x1333-65.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0463-2000x1333-5-2000x1333-11.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0463-2000x1333-5.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-77-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-77.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-33-2000x1333-59.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-33.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0324-2000x1333-46-2000x1333-0.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0324-2000x1333-46.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-55-2000x1333-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-55.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0353-2000x1333-43-2000x1333-9.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0353-2000x1333-43.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0355-2000x1333-70-2000x1333-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0355-2000x1333-70.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0358-2000x1333-98-2000x1333-35.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0358-2000x1333-98.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0371-2000x1333-62-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0371-2000x1333-62.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0378-2000x1333-53-2000x1333-96.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0378-2000x1333-53.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0380-2000x1333-0-2000x1333-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0380-2000x1333-0.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0399-2000x1333-36-2000x1333-85.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0399-2000x1333-36.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-25-2000x1333-78.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-25.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-g",
+          "articleLayout": false
+        }
+      ]
+    },
+    "thesea.html": {
+      "settings": {
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, images, gallery, portfolio, the sea, seaside, ocean, water, beach, pebbles",
+        "title": "The sea"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-t",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0138-2000x1333-74.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "The Sea",
+          "caption": "<p>These photos were taken at the seaside with the family dogs.</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-00302-edited-3-2000x1333-73-2000x1333-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-00302-edited-3-2000x1333-73.jpg",
+                "active": true
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-72-2000x1333-36.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-72.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-85-2000x1333-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-85.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-2-2000x1428-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-2.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-4-2000x1429-10.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-4.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0034-2-2000x1333-88-2000x1333-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0034-2-2000x1333-88.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-85-2000x1333-20.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-85.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-57-2000x1333-52.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-57.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61-2000x1428-5.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-71-2000x1333-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-71.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-26-2000x1333-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-26.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-b",
+          "articleLayout": false
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-70.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+        }
+      ]
+    },
+    "portraits.html": {
+      "settings": {
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, images, gallery, portfolio, portraits, pawtraits, at home, living room",
+        "title": "Portraits"
+      },
       "components": [
         {
           "alias": "purity/components",
@@ -160,7 +638,151 @@
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-r",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-10.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.7,
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "At Home",
+          "caption": "<p>Where your pet is happiest and most comfortable. These photos can be very natural and often the most popular.</p>"
+        },
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/darwin-2000x1333-15-2000x1333-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/darwin-2000x1333-15.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-33-2000x1333-91.jpg",
+                "image": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-33.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-58-2000x1333-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-58.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-18-2000x1333-41.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-18.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-99-2000x1333-99.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-99.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-78-2000x1333-69.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-78.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-74-2000x1333-55.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-74.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/dsc-00072-2000x1333-42-2000x1333-6.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc-00072-2000x1333-42.jpg",
+                "active": false
+              },
+              {
+                "thumb": "@PROJECT_PATH@/assets/images/puppies-on-chair-2-2000x1428-20-2000x1428-98.jpg",
+                "image": "@PROJECT_PATH@/assets/images/puppies-on-chair-2-2000x1428-20.jpg",
+                "active": true
+              }
+            ],
+            "bgColor": "#efefef",
+            "showBullets": true
+          },
+          "_anchor": "gallery1-c",
+          "articleLayout": false
+        }
+      ]
+    },
+    "gallery.html": {
+      "settings": {
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, gallery, images, portfolio, fields, sea, at home",
+        "title": "Gallery"
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "_anchor": "menu-6",
+          "_params": {
+            "hamburgerColor": "#000000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#000000",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-4.jpg",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "home",
+              "family": "MobiriseIcons",
+              "link": "index.html",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
         },
         {
           "_inherit": "msg-box5",
@@ -330,618 +952,10 @@
         }
       ]
     },
-    "aboutme.html": {
+    "prices.html": {
       "settings": {
-        "title": "Portfolios"
-      },
-      "components": [
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "menu-6",
-          "_params": {
-            "hamburgerColor": "#000000",
-            "sticky": true,
-            "transparent": false,
-            "color": "#000000",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-29.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_styles": {
-            ".lead P": {
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "msg-box4-5",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/dsc-0093-1400x933-27.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "About Me",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Originally from Swansea and now residing in York, I began an interest in Photography in aid of the family's business. I soon found that it was going to be more than just a hobby and so my own business grew.</p><p>If you would like to arrange a photo shoot, please contact me using the infomation below. </p><p>Photographs on this site are for demonstration purposes only and are of the family's pets, or have permission to be used.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-7",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#37383e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "images/footer-logo.png",
-              "width": 265
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "camera",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 0,
-              "active": true
-            }
-          },
-          "text1": "<b>Charlotte Eaton-Jones</b><br><b>York Pet &nbsp;Photography</b>",
-          "text2": "<strong>Contact:</strong><br>\nEmail: ceatonjones@aol.com<br>\nPhone: 07495 931140<br><br>",
-          "text3": ""
-        }
-      ]
-    },
-    "thefields.html": {
-      "settings": {},
-      "components": [
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-s",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0310-2000x1333-24.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.7,
-            "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "The Fields",
-          "caption": "<p>These photos are very popular with dog owners. I'm very happy to create a photoshoot based around one of your everyday walks - alternatively, I know plenty of places in and around York where we can take your dog to create some photo magic!</p>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "menu-6",
-          "_params": {
-            "hamburgerColor": "#000000",
-            "sticky": true,
-            "transparent": false,
-            "color": "#000000",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-68.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-03372-2000x1333-65-2000x1333-28.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-03372-2000x1333-65.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0463-2000x1333-5-2000x1333-11.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0463-2000x1333-5.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-77-2000x1333-6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-77.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-33-2000x1333-59.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0112-2000x1333-33.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0324-2000x1333-46-2000x1333-0.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0324-2000x1333-46.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-55-2000x1333-86.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0131-2000x1333-55.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0353-2000x1333-43-2000x1333-9.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0353-2000x1333-43.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0355-2000x1333-70-2000x1333-5.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0355-2000x1333-70.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0358-2000x1333-98-2000x1333-35.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0358-2000x1333-98.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0371-2000x1333-62-2000x1333-6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0371-2000x1333-62.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0378-2000x1333-53-2000x1333-96.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0378-2000x1333-53.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0380-2000x1333-0-2000x1333-17.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0380-2000x1333-0.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0399-2000x1333-36-2000x1333-85.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0399-2000x1333-36.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-25-2000x1333-78.jpg",
-                "image": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-25.jpg",
-                "active": true
-              }
-            ],
-            "bgColor": "#efefef",
-            "showBullets": true
-          },
-          "_anchor": "gallery1-g",
-          "articleLayout": false
-        }
-      ]
-    },
-    "thesea.html": {
-      "settings": {},
-      "components": [
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-t",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dsc-0138-2000x1333-74.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.7,
-            "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "The Sea",
-          "caption": "<p>These photos were taken at the seaside with the family dogs.</p>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-00302-edited-3-2000x1333-73-2000x1333-4.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-00302-edited-3-2000x1333-73.jpg",
-                "active": true
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-72-2000x1333-36.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0007-2000x1333-72.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-85-2000x1333-76.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0012-2000x1333-85.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-2-2000x1428-56.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0026-2000x1428-2.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-4-2000x1429-10.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0029-2000x1429-4.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0034-2-2000x1333-88-2000x1333-46.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0034-2-2000x1333-88.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-85-2000x1333-20.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0068-2000x1333-85.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-57-2000x1333-52.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0085-2000x1333-57.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61-2000x1428-5.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0090-2000x1428-61.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-71-2000x1333-76.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0108-2000x1333-71.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-26-2000x1333-40.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0109-2000x1333-26.jpg",
-                "active": false
-              }
-            ],
-            "bgColor": "#efefef",
-            "showBullets": true
-          },
-          "_anchor": "gallery1-b",
-          "articleLayout": false
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "menu-6",
-          "_params": {
-            "hamburgerColor": "#000000",
-            "sticky": true,
-            "transparent": false,
-            "color": "#000000",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-70.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
-        }
-      ]
-    },
-    "portraits.html": {
-      "settings": {},
-      "components": [
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#000000"
-            }
-          },
-          "_anchor": "menu-6",
-          "_params": {
-            "hamburgerColor": "#000000",
-            "sticky": true,
-            "transparent": false,
-            "color": "#000000",
-            "collapsed": true,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/darwin-192x128-4.jpg",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "index.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "link": "index.html",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
-          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content5",
-          "_anchor": "content5-r",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/jasper-5-2000x1333-10.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.7,
-            "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
-          },
-          "title": "At Home",
-          "caption": "<p>Where your pet is happiest and most comfortable. These photos can be very natural and often the most popular.</p>"
-        },
-        {
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/darwin-2000x1333-15-2000x1333-17.jpg",
-                "image": "@PROJECT_PATH@/assets/images/darwin-2000x1333-15.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-33-2000x1333-91.jpg",
-                "image": "@PROJECT_PATH@/assets/images/skye-working-2-2000x1333-33.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-58-2000x1333-46.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0141-2000x1333-58.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-18-2000x1333-41.jpg",
-                "image": "@PROJECT_PATH@/assets/images/jasper-4-2000x1333-18.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-99-2000x1333-99.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0145-2000x1333-99.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-78-2000x1333-69.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0147-2000x1333-78.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-74-2000x1333-55.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-0021-2000x1333-74.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/dsc-00072-2000x1333-42-2000x1333-6.jpg",
-                "image": "@PROJECT_PATH@/assets/images/dsc-00072-2000x1333-42.jpg",
-                "active": false
-              },
-              {
-                "thumb": "@PROJECT_PATH@/assets/images/puppies-on-chair-2-2000x1428-20-2000x1428-98.jpg",
-                "image": "@PROJECT_PATH@/assets/images/puppies-on-chair-2-2000x1428-20.jpg",
-                "active": true
-              }
-            ],
-            "bgColor": "#efefef",
-            "showBullets": true
-          },
-          "_anchor": "gallery1-c",
-          "articleLayout": false
-        }
-      ]
-    },
-    "page7.html": {
-      "settings": {
-        "title": "prices"
+        "title": "Prices",
+        "meta_descr": "York Pet Photograpy, Yorkshire, North Yorkshire, York Dog Photography, Animals, cats, dogs, hamsters, snakes, photos, photography, phodography, phodographer, pet photographer, images, gallery, portfolio, prices, details, infomation, fees"
       },
       "components": [
         {
@@ -988,7 +1002,7 @@
           },
           "brand": "<a class=\"navbar-brand text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">York Pet Photography</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"portfolio.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"page7.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"index.html\">Home</a></li>  <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"gallery.html\">Gallery</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"prices.html\">Prices</a></li> <li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-white\" data-app-selector=\".nav-link\" href=\"aboutme.html\">About Me/Contact</a></li> "
         },
         {
           "alias": "purity/components",
