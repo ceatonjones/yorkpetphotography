@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Photography",
-    "currentPage": "thefields.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "purity",
       "title": "PurityM",
@@ -73,15 +73,15 @@
           "_name": "menu",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "_anchor": "menu-l",
           "_params": {
-            "hamburgerColor": "#000000",
+            "hamburgerColor": "#ffffff",
             "sticky": true,
             "transparent": false,
-            "color": "#000000",
+            "color": "#434343",
             "collapsed": true,
             "logo": true,
             "showBrand": true,
@@ -312,10 +312,10 @@
           },
           "_anchor": "menu-6",
           "_params": {
-            "hamburgerColor": "#000000",
+            "hamburgerColor": "#ffffff",
             "sticky": true,
             "transparent": false,
-            "color": "#000000",
+            "color": "#434343",
             "collapsed": true,
             "logo": true,
             "showBrand": true,
